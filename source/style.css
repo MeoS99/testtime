@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(./img/bgr.jpeg);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    opacity: 0.8;
+    padding-top: 32px;
+  }
+  
+  .flex-container > div {
+    background-color: none;
+    width: 100px;
+    color: white;
+    text-align: center;
+  }
+  #logo{
+width: 70%;
+  }
+  .logo{
+    display: flex;
+  }
+.bitc{
+    justify-content: start;
+    padding-top: 8px;
+    color: #1FDA7F;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  .fbo{
+    width: 130px;
+    color: #1FDA7F;
+  }
+  .top{
+    padding-top: 16px;
+  }
+  .input{
+    display: flex;
+    padding-top: 20px;
+  }
+  .input1{
+    color: white;
+    background-color:#333;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
+    width: 180px;
+    position: relative;
+  }
+.input ::placeholder{
+    padding: 8px;
+}
+.texts{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.finput{
+    padding-left: 100px;
+}
+.tinput{
+    padding-left: 20px;
+}
+.thattext{
+        padding-top: 16px;
+}
+.icon1{
+position: absolute;
+transform: translate(-1%, 100%);
+}
+.fa-address-card{
+    color: white;
+    opacity: 0.4;
+}
+.input23{
+    color: white;
+    background-color:#333;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
+    width: 480px;
+    position: relative;
+}
+.inputot{
+    padding-left: 100px;
+    padding-top: 28px;
+}
+.fa-solid{
+    color: white;
+    opacity: 0.4;
+    transform: translate(-250%);
+}
+.btn{
+    padding-left: 100px;
+    padding-top: 16px;
+}
+.btna{
+    padding: 16px;
+    border-radius: 50px;
+    background-color: #2B2E3B;
+    color: #1FDA7F;
+}
+.btnb{
+    padding: 16px;
+    border-radius: 50px;
+    background-color: #1FDA7F;
+    color: #2B2E3B;
+    font-weight: 400;
+}
+.dot::after{
+    content: "<i class="fa-solid fa-circle"></i>";
+}
